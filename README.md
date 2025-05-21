@@ -15,5 +15,30 @@ Liquidity prediction enables traders and investors to assess how easily a crypto
     - Correlation Heatmap
     - Generate summary statistics to understand data distribution.
 - Model Building:
--       
+    - Linear Regression (Baseline Model)
+    - Random Forest Regressor (Final model after hyperparameter tuning)
+- Evaluation Metrics:
+    - RMSE
+    - MAE
+    - R² Score (achieved 0.87 after tuning)
+- Model Saving : Saved the trained model (liquidity_prediction_model.pkl) using Joblib.
+- Local Deployment: Streamlit app deployed using Ngrok for public access.
+
+## Folder Structure
+- source_code/: Jupyter notebook (.ipynb) with full code
+- eda_report/: EDA images and statistics table
+- model/: Trained model (.pkl file)
+- deployment/: Streamlit app file (app.py)
+- documents/: Final Report, HLD, LLD, Pipeline Architecture documents
+
+## Technologies Used
+- Python, Pandas, Numpy
+- Scikit-learn, Streamlit, Joblib
+- Ngrok (for local app deployment)
+
+## Deployment Link
+(App was deployed locally using Streamlit + Ngrok during testing.)
+
+## Author
+- Ruchita Utekar
       
